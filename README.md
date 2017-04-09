@@ -2,9 +2,9 @@
 
 ### Support version
 
-macos sierra 10.12.3
+macos sierra 10.12.4
 
-Clover r3766
+Clover r4035
 
 ### Hardware
 

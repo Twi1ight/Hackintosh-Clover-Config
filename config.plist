@@ -164,7 +164,7 @@
 		<string>0x0506E3</string>
 		<key>ForceKextsToLoad</key>
 		<array>
-			<string>\System\Library\Extensions\AMD9500Controller.kext</string>
+			<string>\System\Library\Extensions\AMD9510Controller.kext</string>
 			<string>\System\Library\Extensions\AMDRadeonX4100.kext</string>
 		</array>
 		<key>KernelCpu</key>
@@ -177,90 +177,6 @@
 		<true/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Change "R9xxx" to "RX 480" by CONATH</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				OSB4eHgAQVRZLFBhcnQjAA==
-				</data>
-				<key>Name</key>
-				<string>AMD9500Controller</string>
-				<key>Replace</key>
-				<data>
-				WCA0ODAAAAAAAAAAAAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>PP_DisablePowerContainment=1</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				PGtleT5QUF9EaXNhYmxlUG93ZXJDb250YWlubWVudDwv
-				a2V5PjxpbnRlZ2VyPjA8L2ludGVnZXI+
-				</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>AMD9500Controller</string>
-				<key>Replace</key>
-				<data>
-				PGtleT5QUF9EaXNhYmxlUG93ZXJDb250YWlubWVudDwv
-				a2V5PjxpbnRlZ2VyPjE8L2ludGVnZXI+
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Remove_CU_limit_of_RX4x0-(C)_by_okrasit_2016</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				D0LIiYuAAAAARIizmQAAAESIcyA=
-				</data>
-				<key>Name</key>
-				<string>AMDRadeonX4100</string>
-				<key>Replace</key>
-				<data>
-				kJCQiYuAAAAARIizmQAAAESIcyA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Change_init_from_BAFFIN_to_ELLESMERE-(C)_by_Fl0r!an_2016</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				6EmF/v++SAEAAEyJ9w==
-				</data>
-				<key>Name</key>
-				<string>AMDRadeonX4100</string>
-				<key>Replace</key>
-				<data>
-				6EbkAAC+SAEAAEyJ9w==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Change_#_of_RX4x0_CUs-(C)_by_okrasit_2016</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SLgCAAAAAQAAAEiJQ1THQ3wIAAAA
-				</data>
-				<key>Name</key>
-				<string>AMDRadeonX4100</string>
-				<key>Replace</key>
-				<data>
-				SLgEAAAAAQAAAEiJQ1THQ3wSAAAA
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
